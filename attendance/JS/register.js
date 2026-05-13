@@ -1,4 +1,3 @@
-// register.js
 document.addEventListener('DOMContentLoaded', function() {
     const btnCreate = document.getElementById('btnCreateAccount');
     if (!btnCreate) return;

@@ -17,30 +17,34 @@
   	<form enctype="multipart/form-data">
   		<div class="form-group">
   			<label>Enter First Name:</label>
-  			<input type="" name="" placeholder="First Name">
+  			<input type="" name="" placeholder="First Name" id="txtFirstName">
   		</div>
         <div class="form-group">
   			<label>Enter Last Name:</label>
-  			<input type="" name="" placeholder="Last Name">
+  			<input type="" name="" placeholder="Last Name" id="txtLastName">
   		</div>
         <div class="form-group">
   			<label>Enter Email:</label>
-  			<input type="" name="" placeholder="example@gmail.com">
+  			<input type="" name="" placeholder="example@gmail.com" id="txtEmail">
   		</div>
   		<div class="form-group">
   			<label>Enter password:</label>
-  			<input type="password" name="" placeholder="******"> 
+  			<input type="password" name="" placeholder="******" id="txtPassword">
   		</div>
         <div class="form-group">
   			<label>Confirm Password:</label>
-  			<input type="password" name="" placeholder="******">
+  			<input type="password" name="" placeholder="******" id="txtConfirmPassword">
   		</div>
-  	    <button class="btn-primary" color>Create Account</button>
+  	    <button class="btn-primary" color id="btnCreateAccount">Create Account</button>
         <button class="btn-register"><a href="index.html">Back to Login</a></button>
   	</form>
   </div>
 	
 </div>
-
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
+<script src="JS/config.js"></script>
+<script src="JS/register.js"></script>
 </body>
 </html>

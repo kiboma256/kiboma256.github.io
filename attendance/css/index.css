@@ -52,8 +52,8 @@ input:focus{
 	border-color: #1e3a8a;
 }
 .btn-primary{
-	background: #21158f;
-	color: white;
+	background: #6c60dd;
+	color: rgb(15, 14, 14);
 	padding: 12px;
 	width: 100%;
 	cursor: pointer;
@@ -63,8 +63,8 @@ input:focus{
 	margin-top: 8px;
 }
 .btn-register{
-	background: #21158f;
-	color: white;
+	background: #54d36f;
+	color: rgb(36, 33, 33);
 	padding: 12px;
 	width: 100%;
 	cursor: pointer;
@@ -73,9 +73,9 @@ input:focus{
 	transition: 0.3s ease;
 	margin-top: 8px;
 }
-.btn-fogot{
+.btn-forgot{
 	background: #e9341d;
-	color: white;
+	color: rgb(43, 38, 38);
 	padding: 12px;
 	width: 100%;
 	cursor: pointer;
@@ -85,4 +85,15 @@ input:focus{
 	outline: none;
 	border: 0px;
 	margin-top: 8px;
+}
+
+
+@media (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
+    .logo, .card{
+        width: 100%;
+        padding: 30px;
+    }
 }
